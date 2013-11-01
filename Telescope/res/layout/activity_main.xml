@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topView" 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    
+
+    tools:context=".MainActivity" >
+	<Spinner
+        android:id="@+id/objectTypeSpin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/objTypeArray"
+        android:prompt="@string/objType_prompt"
+        />
+    <Spinner
+        android:id="@+id/objSpin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/planetsArray"
+        android:prompt="@string/messier_prompt"
+         />
+	<LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	>
+    	<Button
+			android:id="@+id/calibrateBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@android:color/transparent"
+    		android:textColor="#ff0000"
+			android:text="@string/calibrate"
+			android:textStyle="bold" />
+    
+    	<Button
+     	   android:id="@+id/trackBtn"
+	        android:layout_width="wrap_content"
+   	     	android:layout_height="wrap_content"
+    	    android:background="@android:color/transparent"
+        	android:text="@string/track"
+	       android:textColor="#ff0000"
+ 	       android:textStyle="bold" />
+    
+		<Button
+			android:id="@+id/slewBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@android:color/transparent"
+ 		   	android:textColor="#ff0000"
+			android:text="@string/slew"
+			android:textStyle="bold" />
+	</LinearLayout>
+	
+	<ImageView
+	    	android:id="@+id/imgView"
+	    	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:src="@drawable/earthrise" 
+			android:gravity="center|bottom"
+			/>
+	    
+</LinearLayout>

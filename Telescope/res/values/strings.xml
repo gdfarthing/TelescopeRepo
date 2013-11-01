@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Telescope</string>
+    <string name="action_settings">Settings</string>
+    <string name="objType_prompt">Select Object Type</string>
+	<string name="messier_prompt">Select Messier Object</string>
+	<string name="slew">Slew</string>
+	<string name="track">Track</string>
+	<string name="calibrate">Calibrate</string>
+	<string-array name="objTypeArray">
+        <item>Planets</item>
+        <item>Stars</item>
+        <item>Messier</item>
+        <item>Other</item>
+    </string-array>
+	<string-array name="planetsArray">
+	    <item>None Selected</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string-array name="messierArray">
+        <item>M1   Crab Nebula               6.3</item>
+        <item>M2   Cluster, Globular         6.5</item>
+        <item>M3   Cluster, Globular         6.4</item>
+        <item>M4   Cluster, Globular         5.9</item>
+        <item>M5   Cluster, Globular         7.0</item>
+        <item>M6   Butterfly Cluster         4.5</item>
+        <item>M7   Ptolemy Cluster           3.5</item>
+        <item>M8   Lagoon Nebula             6.0</item>
+        <item>M9   Cluster, Globular         9.0</item>
+        <item>M10  Cluster, Globular         7.5</item>
+        <item>M11  Wild Duck Cluster         7.0</item>
+        <item>M12  Cluster, Globular         8.0</item>
+        <item>M13  Great Cluster in Hercules 5.8</item>
+        <item>M14  Cluster, Globular         9.5</item>
+        <item>M15  Culster, Globular         6.2</item>
+        <item>M16  Eagle Nebula              6.5</item>
+        <item>M17  Omega,Swan,Lobster Nebula 6.0</item>
+        <item>M18  Cluster, Open             8.0</item>
+        <item>M19  Cluster, Globular         8.5</item>
+        <item>M20  Trifid Nebula             6.3</item>
+        <item>M21  Cluster, Open             7.0</item>
+        <item>M22     </item>
+        <item>M23     </item>
+        <item>M24     </item>
+        <item>M25     </item>
+        <item>M26     </item>
+        <item>M27     </item>
+        <item>M28     </item>
+        <item>M29     </item>
+        <item>M30     </item>
+        <item>M31 Andromeda Galaxy           3.4</item>
+        <item>M32     </item>
+        <item>M33 Triangulum Galaxy          5.7</item>
+        <item>M34     </item>
+        <item>M35     </item>
+        <item>M36     </item>
+        <item>M37     </item>
+        <item>M38     </item>
+        <item>M39     </item>
+        <item>M40     </item>
+        <item>M41     </item>
+        <item>M42 Orion Nebula               4.0</item>
+        <item>M43     </item>
+        <item>M44     </item>
+        <item>M45 Pleiades                   1.6</item>
+        <item>M46     </item>
+        <item>M47     </item>
+        <item>M48     </item>
+        <item>M49     </item>
+        <item>M50     </item>
+        <item>M51 Whirlpool Galaxy           8.4</item>
+        <item>M52     </item>
+        <item>M53     </item>
+        <item>M54     </item>
+        <item>M55     </item>
+        <item>M56     </item>
+        <item>M57 Ring Nebula                8.8</item>
+        <item>M58     </item>
+        <item>M59     </item>
+        <item>M60     </item>
+        <item>M61     </item>
+        <item>M62     </item>
+        <item>M63     </item>
+        <item>M64     </item>
+        <item>M65     </item>
+        <item>M66     </item>
+        <item>M67     </item>
+        <item>M68     </item>
+        <item>M69     </item>
+        <item>M70     </item>
+        <item>M71     </item>
+        <item>M72     </item>
+        <item>M73     </item>
+        <item>M74     </item>
+        <item>M75     </item>
+        <item>M76     </item>
+        <item>M77     </item>
+        <item>M78     </item>
+        <item>M79     </item>
+        <item>M80     </item>
+        <item>M81     </item>
+        <item>M82     </item>
+        <item>M83     </item>
+        <item>M84     </item>
+        <item>M85     </item>
+        <item>M86     </item>
+        <item>M87     </item>
+        <item>M88     </item>
+        <item>M89     </item>
+        <item>M90     </item>
+        <item>M91     </item>
+        <item>M92     </item>
+        <item>M93     </item>
+        <item>M94     </item>
+        <item>M95     </item>
+        <item>M96     </item>
+        <item>M97     </item>
+        <item>M98     </item>
+        <item>M99     </item>
+        <item>M100 Galaxy, Spiral           10.5</item>
+        <item>M101 Pinwheel Galaxy           7.9</item>
+        <item>M102 Galaxy, Spiral(maybe)     ---</item>
+        <item>M103 Cluster Open              8.0</item>
+        <item>M104 Sombrero Galaxy           9.5</item>
+        <item>M105 Galaxy Elliptical        11.0</item>
+        <item>M106 Galaxy, Spiral            9.5</item>
+        <item>M107 Cluster, Globular        10.0</item>
+        <item>M108 Galaxy, Barred Spiral    11.0</item>
+        <item>M109 Galaxy, Barred Spiral    11.0</item>
+        <item>M110 Galaxy, Dwarf Elliptical 10.0</item>
+        
+        
+        
+    </string-array>
+    	
+</resources>
